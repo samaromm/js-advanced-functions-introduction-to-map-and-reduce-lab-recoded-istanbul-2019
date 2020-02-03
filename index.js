@@ -31,7 +31,7 @@ function mapToSquare(arr){
 function reduceToTotal(arr, start=0){
   let total=0
   for(let i=start; i<arr.length; i++){
-    total+=arr[i]
+    total+=parseInt(arr[i])
   }
   return total
 }
