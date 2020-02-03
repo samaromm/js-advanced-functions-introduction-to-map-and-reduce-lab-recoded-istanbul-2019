@@ -7,7 +7,7 @@ function mapToNegativize(arr){
   return arr2
 }
 
-function mapToNNoChange(arr){
+function mapToNoChange(arr){
   let arr2=[...arr]
   return arr2
 }
