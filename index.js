@@ -6,3 +6,8 @@ function mapToNegativize(arr){
   }
   return arr2
 }
+
+function mapToNNoChange(arr){
+  let arr2=[...arr]
+  return arr2
+}
