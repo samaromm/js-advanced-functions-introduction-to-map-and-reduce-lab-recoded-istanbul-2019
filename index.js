@@ -27,3 +27,10 @@ function mapToSquare(arr){
   }
   return arr2
 }
+
+function reduceToTotal(arr){
+  let total=0
+  for(let ele of arr){
+    total+=ele
+  }
+}
