@@ -19,3 +19,11 @@ function mapToNegativize(arr){
   }
   return arr2
 }
+
+function mapToNegativize(arr){
+  let arr2=[]
+  for(let ele of arr){
+    arr2.push(ele*ele)
+  }
+  return arr2
+}
