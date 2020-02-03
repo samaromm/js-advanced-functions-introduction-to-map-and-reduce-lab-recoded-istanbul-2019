@@ -33,4 +33,5 @@ function reduceToTotal(arr){
   for(let ele in arr){
     total+=ele
   }
+  return total
 }
