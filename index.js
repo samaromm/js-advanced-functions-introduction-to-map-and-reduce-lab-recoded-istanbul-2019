@@ -35,3 +35,10 @@ function reduceToTotal(arr, start=0){
   }
   return total
 }
+
+function reduceToAllTrue(arr){
+  for(let ele of arr){
+    if(ele==false)return false
+  }
+  return true
+}
