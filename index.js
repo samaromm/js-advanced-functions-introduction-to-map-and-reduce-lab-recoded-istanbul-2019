@@ -42,3 +42,10 @@ function reduceToAllTrue(arr){
   }
   return true
 }
+
+function reduceToAnyTrue(arr){
+  for(let ele of arr){
+    if(ele==true)return true
+  }
+  return false
+}
